@@ -17,7 +17,9 @@ From PorfolioProject.dbo.NashvilleHousing
 
 Update NashvilleHousing
 SET SaleDate = CONVERT(Date, SaleDate)
-
+	
+-- (Alternatively adding new date conversion column)
+	
 ALTER TABLE NashvilleHousing
 Add SaleDate2 Date;
 
